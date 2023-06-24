@@ -24,7 +24,6 @@ namespace ApiAuth.Controllers
             user.Password = "";  
             return new
             {
-                user,
                 token        
             };     
         }       
